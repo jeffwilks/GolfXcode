@@ -15,11 +15,5 @@ class ViewController: UIViewController {
         self.title = "New Golf App"
         self.view.tintColor = .black
     }
-
-    override func canPaste(_ itemProviders: [NSItemProvider]) -> Bool {
-        return true
-    }
-
-
 }
 
