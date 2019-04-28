@@ -14,6 +14,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "New Golf App"
         self.view.tintColor = .black
-    }
+    }override var accessibilityLabel: String?
 }
 
