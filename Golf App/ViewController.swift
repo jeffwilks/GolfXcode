@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "New Golf App"
+        self.view.tintColor = .black
+    }
+
+    override func canPaste(_ itemProviders: [NSItemProvider]) -> Bool {
+        return true
     }
 
 
